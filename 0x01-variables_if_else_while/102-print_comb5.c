@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - Print all combs two two-digit numbers :)
+ *main - Print all unique combs two two-digit numbers :)
  *Return: Always 0 (Success)
  */
 
