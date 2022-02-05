@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - print (all single digit number of base 10 starting from 0) 0123456789 using putchar
+ *main - print  0123456789 using putchar
  *Return: Always 0 (Success)
  */
 
