@@ -11,7 +11,5 @@
 
 int add(int a, int b)
 {
-	if (a > INT_MAX - b)
-		return (0);
 	return (a + b);
 }
