@@ -5,7 +5,7 @@
  *Return: Always 0 (succes)
  */
 
-int main (void)
+int main(void)
 {
 	_putchar(95);
 	_putchar(112);
@@ -16,5 +16,5 @@ int main (void)
 	_putchar(97);
 	_putchar(114);
 	_putchar(10);
-	return 0;
+	return(0);
 }
