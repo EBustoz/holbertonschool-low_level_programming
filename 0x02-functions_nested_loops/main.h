@@ -99,7 +99,7 @@ void jack_bauer(void);
  *
  */
 
-void times_table(void);
+void print_times_table(void);
 
 /**
  * add -  function that adds two integers and returns the result.
