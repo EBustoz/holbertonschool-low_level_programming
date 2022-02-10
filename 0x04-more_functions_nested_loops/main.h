@@ -28,6 +28,13 @@ int _isupper(int c);
 int _isdigit(int c);
 
 /**
+ * print_numbers - print 0 to 9
+ */
+
+void print_numbers(void);
+
+
+/**
  * mul - multiplies two integers
  * @a: one integer
  * @b: second integer
