@@ -1,0 +1,28 @@
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 0 (Always)
+ *
+ */
+
+int _putchar(char c);
+
+/**
+ * _isupper - checks for uppercase character
+ * @c: character to be checked
+ * Return: 1 if is UPPERCASE, 0 otherwise
+ */
+
+/**
+ * reset_to_98 - takes a pointer to an int as parameter
+ * and updates the value it points to to 98
+ * @n: pointer to int n
+ */
+
+void reset_to_98(int *n);
+
+#endif
