@@ -56,10 +56,10 @@ void _puts(char *str);
 void print_rev(char *s);
 
 /**
- * print_rev - prints a string, in reverse, followed by a new line
+ * rev_string - reverses a string
  * @s: string to reverse
  */
 
-void print_rev(char *s);
+void rev_string(char *s);
 
 #endif
