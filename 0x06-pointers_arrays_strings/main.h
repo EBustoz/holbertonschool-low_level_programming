@@ -20,4 +20,14 @@ int _putchar(char c);
 
 char *_strcat(char *dest, char *src);
 
+/**
+ * _strncat - concatenate useu n bytes from src to destination string
+ * @dest: string to be appended to
+ * @src: string to append
+ * @n: append n number of bytes(chars)
+ * Return: concatenated string
+ */
+
+char *_strncat(char *dest, char *src, int n)
+
 #endif
