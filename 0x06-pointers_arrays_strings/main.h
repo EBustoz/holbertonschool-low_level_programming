@@ -28,6 +28,6 @@ char *_strcat(char *dest, char *src);
  * Return: concatenated string
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n);
 
 #endif
