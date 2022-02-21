@@ -81,4 +81,12 @@ char *cap_string(char *s);
 
 char *leet(char *s);
 
+/**
+ * root13 - encode string into tot13
+ * @s: string to manipulate
+ * Return: string
+ */
+
+char *rot13(char *s);
+
 #endif
