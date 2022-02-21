@@ -30,5 +30,14 @@ int _putchar(char c);
   */
 
  char *_memcpy(char *dest, char *src, unsigned int n);
- 
+
+ /**
+ * _strchr - locate 1st occurrence of char in string and returns pointer there
+ * @s: string to search
+ * @c: target characer
+ * Return: pointer to that character in string (NULL is not located)
+ */
+
+char *_strchr(char *s, char c);
+
 #endif
