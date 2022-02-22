@@ -17,6 +17,7 @@ unsigned int _strspn(char *s, char *accept)
  		while (*(accept + j) && (*(s + i) == *(accept + j)) )
  		{
 			matches++;
+			j++;
 		}
 		i++;
  	}
