@@ -11,15 +11,16 @@ unsigned int _strspn(char *s, char *accept)
 {
 	int i = 0, j = 0;
 
-	while (*(s + i))
+	while (*(accept + i))
 	{
-		while (*(accept + j))
+		while (*(s + j))
 		{
-			if (*(s + i) == *(accept + j))
-				return (i);
+			if (*(accept + i) == *(s + j))
+				return (j + 1);
 			j++;
 		}
 		i++;
+		j = 0;
 	}
 	return (0);
 }
