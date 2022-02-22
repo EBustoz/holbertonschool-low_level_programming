@@ -10,17 +10,27 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i = 0, j = 0;
+	int found1 = 1;
+	int found2 = 1;
+	int match = 0;
 
-	while (*(accept + i))
+	while ((*(s + i)) && (found1 == 1))
 	{
-		while (*(s + j))
+		while ((*(accept + j)) && (found2 == 1))
 		{
-			if (*(accept + i) == *(s + j))
-				return (j + 1);
+			if (*(s + i) == *(accept + j))
+			{
+				match++;
+				found1 = 1;
+				found2 = 0;
+			}
 			j++;
 		}
+		if ((*(accept + j) == '\0') && (found2 == 1))
+			found1 = 0;
 		i++;
 		j = 0;
+		found2 = 1;
 	}
-	return (0);
+	return (match);
 }
