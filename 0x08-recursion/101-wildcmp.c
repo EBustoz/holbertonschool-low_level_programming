@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * substring_match - check if a substring after wildcard matches s1
  * @s1: one string
@@ -27,7 +27,7 @@ int substring_match(char *s1, char *s2, char *after_wldcd)
  * wildcmp - compare if string with wildcard mattches
  * @s1: one string
  * @s2: one string
- * Retur: 1 if matched, 0 if not
+ * Return: 1 if matched, 0 if not
  */
 
 int wildcmp(char *s1, char *s2)
