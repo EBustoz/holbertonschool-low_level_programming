@@ -20,4 +20,13 @@ int _putchar(char c);
 
 int main(int argc, char *argv[]);
 
+/**
+ * main - print number of arguments passed to program
+ * @argc: argument counter
+ * @argv: pointer to array of arguments
+ * Return: 0 on success
+ */
+
+int main(int argc, char *argv[] __attribute__((unused)));
+
 #endif
