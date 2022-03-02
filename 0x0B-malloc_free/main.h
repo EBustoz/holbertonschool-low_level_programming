@@ -26,5 +26,14 @@ int _putchar(char c);
   */
 
  char *create_array(unsigned int size, char c);
+
+ /**
+  * _strdup - returns a pointer to a newly allocated space in memory,
+  * which contains a copy of the string given as a parameter
+  * @str: string to duplicate
+  * Return: pointer to duplicated string in allocated memory
+  */
+
+ char *_strdup(char *str);
  
 #endif
