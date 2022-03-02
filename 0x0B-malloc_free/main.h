@@ -62,5 +62,22 @@ int _putchar(char c);
   */
 
  void free_grid(int **grid, int height);
- 
+
+ /**
+  * _strlen - returns the length of a string
+  * @s: string
+  * Return: length
+  */
+
+ int _strlen(char *s);
+
+ /**
+  * argstostr - concatenates all the arguments of your program
+  * @ac: argc
+  * @av: arguments
+  * Return: pointer to array
+  */
+
+ char *argstostr(int ac, char **av);
+  
 #endif
