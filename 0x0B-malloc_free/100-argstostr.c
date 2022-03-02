@@ -45,7 +45,7 @@ char *argstostr(int ac, char **av)
 
 	if (s == NULL)
 	{
-		ree(s);
+		free(s);
 		return (NULL);
 	}
 
