@@ -44,5 +44,14 @@ int _putchar(char c);
   */
 
  char *str_concat(char *s1, char *s2);
+
+ /**
+  * alloc_grid - returns a pointer to a 2 dimensional array of integers
+  * @width: columns
+  * @height: rows
+  * Return: pointer to 2d array
+  */
+
+ int **alloc_grid(int width, int height);
  
 #endif
