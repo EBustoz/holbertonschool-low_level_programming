@@ -38,7 +38,7 @@ char *strcpy(char *dest, char *src)
  * @owner: member
  * Return: initialized instance of struct dog
  */
-dog_t *new_dog(char *name, float age char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog1;
 	char *copy_of_name;
