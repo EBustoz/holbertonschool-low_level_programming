@@ -21,7 +21,7 @@
 
 	 /* iterate through list, upddate sum */
 	 for (i = 0; i < n; i++)
-		 sum += va_argument( valist, int); /* Get the next argument value */
+		 sum += va_arg(valist, int); /* Get the next argument value */
 
 	 va_end(valist); /* Clean up */
 	 
