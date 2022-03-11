@@ -2,9 +2,9 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - return sum when given unknown amount of arguments
- * @n: integers to add
- * Return: sum
+ * print_numbers - print varying amount of numbers
+ * @separatos: delimiter
+ * @n: amount of arguments in list
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
