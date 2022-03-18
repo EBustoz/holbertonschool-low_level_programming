@@ -24,11 +24,11 @@ int _strlen(const char *str)
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node; /* create new node */
-
-	if (str == NULL) || (strdup(str) == NULL) /* validate input & check if strdup malloc errored */
+	/* validate input & check */
+	if ((str == NULL) || (strdup(str) == NULL))
 		return (NULL);
 
-	new_node = malloc(sizeof(list_t))/* malloc for new node */
+	new_node = malloc(sizeof(list_t)) /* malloc for new node */
 	if (new_node == NULL)
 		return (NULL);
 
