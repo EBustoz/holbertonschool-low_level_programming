@@ -42,7 +42,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	}
 
 	/* write string */
-	n_wrote = write(fd, text_content, _strlen(textcontent));
+	n_wrote = write(fd, text_content, _strlen(text_content));
 	if (n_wrote == -1 || n_wrote != _strlen(text_content))
 	{
 		close(fd);
